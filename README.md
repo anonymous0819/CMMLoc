@@ -72,7 +72,7 @@ Our pre-trained models are publicly available [Here](https://www.dropbox.com/scl
 ./checkpoints/prealign_mlp.pth
 ```
 
-And you should specify the PATH_TO_PRETRAINED in the language encoder and object encoder in the fine stage.
+You should specify pointnet_path in args.py and the PATH_TO_PRETRAINED in the language_encoder.py and object_encoder.py in the fine stage.
 
 ## Train
 
